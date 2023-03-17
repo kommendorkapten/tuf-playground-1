@@ -1,0 +1,17 @@
+{
+ "signatures": [
+  {
+   "keyid": "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+   "sig": "3045022100f2b982e6d645184182868067bab7130b3e5b8af0190ab484d873a25ac3730cdd02202fd535f0ab352628da62c3ec86306d54c5d7d7c2ff3ef4885aecb3787533bb9a"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2024-03-16T09:31:58Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 1,
+  "x-playground-expiry-period": 365,
+  "x-playground-signing-period": 60
+ }
+}
