@@ -1,0 +1,21 @@
+{
+ "signatures": [
+  {
+   "keyid": "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+   "sig": "3045022100f2b982e6d645184182868067bab7130b3e5b8af0190ab484d873a25ac3730cdd02202fd535f0ab352628da62c3ec86306d54c5d7d7c2ff3ef4885aecb3787533bb9a"
+  },
+  {
+   "keyid": "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635",
+   "sig": "3046022100b0adddd53156b9dd5edd148e13b2a0095146c19ce8f6733b647335c4915e5f400221008b12d6b130d6d9a8fbfa0b741a9fa7a10f866284ef2f02766188a75985af812c"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2024-03-16T09:31:58Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 1,
+  "x-playground-expiry-period": 365,
+  "x-playground-signing-period": 60
+ }
+}

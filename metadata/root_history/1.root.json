@@ -1,0 +1,89 @@
+{
+ "signatures": [
+  {
+   "keyid": "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+   "sig": "3046022100ecf1516cb099e72c8c2f3cdc3be218170f54508a029cd8eb731b1851cc282741022100d83005781ae385cfc6850f1b2290ebf10dcd6e5171545251b17e8666de1199bf"
+  },
+  {
+   "keyid": "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635",
+   "sig": "3045022068f18f308927d95d4502e543b37c476db0c9684fee6e1331cf0e38eb07499cf6022100950d31e2505884165808b1fc25394b3406f8d69d82387fdd7faff094705e0a11"
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2024-03-16T09:35:57Z",
+  "keys": {
+   "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0rNfVtW3SeL8+k+YOr9JrlNUYJz4\nAehc/gALb0xuQnsrb/5yx61wt3mspeqoQgvQ7iXi1uVrq+9GWTjmhHxdpg==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-playground-keyowner": "@kommendorkapten"
+   },
+   "abcd": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/kommendorkapten/tuf-playground-1/.github/workflows/snapshot.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-playground-online-uri": "sigstore:"
+   },
+   "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEohqIdE+yTl4OxpX8ZxNUPrg3SL9H\nBDnhZuceKkxy2oMhUOxhWweZeG3bfM1T4ZLnJimC6CAYVU5+F5jZCoftRw==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-playground-keyowner": "@jku"
+   },
+   "efgh": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/kommendorkapten/tuf-playground-1/.github/workflows/version-bumps.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-playground-online-uri": "sigstore:"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+     "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635"
+    ],
+    "threshold": 2
+   },
+   "snapshot": {
+    "keyids": [
+     "abcd",
+     "efgh"
+    ],
+    "threshold": 1,
+    "x-playground-expiry-period": 365
+   },
+   "targets": {
+    "keyids": [
+     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+     "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "abcd",
+     "efgh"
+    ],
+    "threshold": 1,
+    "x-playground-expiry-period": 2
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-playground-expiry-period": 365,
+  "x-playground-signing-period": 60
+ }
+}
