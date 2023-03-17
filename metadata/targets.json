@@ -2,11 +2,11 @@
  "signatures": [
   {
    "keyid": "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
-   "sig": "304402204cfa646954b60d9fb09a2f91a87e9af312786d8f8c70823fd3f1164ef59871a102200eae3f44661c1140374493eb1dcb9413afa5c22c6874887cbee2522a542e0ff8"
+   "sig": ""
   },
   {
    "keyid": "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635",
-   "sig": ""
+   "sig": "304402203c0e58bd2dd0e75dcb9353277ef85dbabe14494cbafc29ad5b6694be64f20bb3022059e818c47c631d4867ee05a997a33d27056537c9389c64fd220da4b8a504f3fb"
   }
  ],
  "signed": {
@@ -20,12 +20,21 @@
      },
      "scheme": "ecdsa-sha2-nistp256",
      "x-playground-keyowner": "@kommendorkapten"
+    },
+    "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635": {
+     "keytype": "ecdsa",
+     "keyval": {
+      "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEohqIdE+yTl4OxpX8ZxNUPrg3SL9H\nBDnhZuceKkxy2oMhUOxhWweZeG3bfM1T4ZLnJimC6CAYVU5+F5jZCoftRw==\n-----END PUBLIC KEY-----\n"
+     },
+     "scheme": "ecdsa-sha2-nistp256",
+     "x-playground-keyowner": "@jku"
     }
    },
    "roles": [
     {
      "keyids": [
-      "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa"
+      "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+      "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635"
      ],
      "name": "test-delegate-1",
      "paths": [
@@ -36,7 +45,7 @@
     }
    ]
   },
-  "expires": "2024-03-16T10:04:55Z",
+  "expires": "2024-03-16T10:07:11Z",
   "spec_version": "1.0.31",
   "targets": {},
   "version": 2,
