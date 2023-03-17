@@ -2,13 +2,17 @@
  "signatures": [
   {
    "keyid": "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
-   "sig": "3045022017bb5f779fd8ba3a97ebd34e4b9e5b6175e91ab15aa26df2ec3de3968efb5528022100cebf2012ed815ae6d923e83e350b17c5a895499e78660df97b2267e4485b77ae"
+   "sig": ""
+  },
+  {
+   "keyid": "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635",
+   "sig": "3045022068f18f308927d95d4502e543b37c476db0c9684fee6e1331cf0e38eb07499cf6022100950d31e2505884165808b1fc25394b3406f8d69d82387fdd7faff094705e0a11"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2024-03-16T09:32:08Z",
+  "expires": "2024-03-16T09:35:57Z",
   "keys": {
    "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa": {
     "keytype": "ecdsa",
@@ -27,6 +31,14 @@
     "scheme": "Fulcio",
     "x-playground-online-uri": "sigstore:"
    },
+   "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEohqIdE+yTl4OxpX8ZxNUPrg3SL9H\nBDnhZuceKkxy2oMhUOxhWweZeG3bfM1T4ZLnJimC6CAYVU5+F5jZCoftRw==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-playground-keyowner": "@jku"
+   },
    "efgh": {
     "keytype": "sigstore-oidc",
     "keyval": {
@@ -40,7 +52,8 @@
   "roles": {
    "root": {
     "keyids": [
-     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa"
+     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+     "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635"
     ],
     "threshold": 2
    },
@@ -54,7 +67,8 @@
    },
    "targets": {
     "keyids": [
-     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa"
+     "8d5c4de5db483df83aa6923e63bd88ebfbb02b91eb6453073b7cf66191dcc5aa",
+     "da63eeba4841366b8968e2842cd5768933101593c0a59267a156ad6faf7af635"
     ],
     "threshold": 1
    },
